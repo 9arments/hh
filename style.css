@@ -1,0 +1,186 @@
+@font-face {
+    font-family: 'min';
+    src: url('/font/min.eot?') format('oldIE'),
+        url('/font/min.woff') format('woff'),
+        url('/font/min.ttf') format('truetype');
+}
+
+.min {
+    font-family: 'min';
+}
+
+* {
+    margin: 0px;
+
+    padding: 0px;
+}
+
+
+
+.title_botton_ {
+    border-color: #000:#ffffff;
+    color: #ffffff;
+    font-family: "futura pt";
+    font-size: 26.6667px;
+    padding: 30px 15px 0px;
+    text-align: right;
+    transition: color 0.5s;
+}
+
+.title_botton_ :hover {
+    transition: 1.0s;
+    color: #3d5cDB;
+}
+
+
+.introduction_title {
+    text-align: center;
+
+    margin-top: 100px;
+}
+
+.title_subtitle {
+    border-color: #ffffff;
+    color: #ffffff;
+    font-family: "Futura";
+    font-style: italic;
+    font-size: 45px;
+    font-weight: 0px;
+    gap: normal;
+    margin: 30px 0px 0px;
+    text-align: center;
+}
+
+nav {
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: right;
+    margin-top: 2px;
+}
+
+nav a {
+    font-size: 26.6667px;
+    padding: 30px 15px 0px;
+    display: block;
+    text-decoration: none;
+    color: #f9f9f9;
+
+}
+
+
+
+.introductionbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 326px;
+    ;
+}
+
+#box1 {
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#box2 {
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+.introduction_pic1 {
+    float: left;
+    margin-right: 40px;
+
+}
+
+.intro_word1 {
+    float: left;
+    border-color: #333333;
+    color: #333333;
+    font-family: Hiragino Kaku Gothic Pro;
+    line-height: 32px;
+    border-left: 40px;
+    height: 356px;
+    width: 500px;
+
+}
+
+
+.introduction_pic2 {
+    float: left;
+}
+
+.intro_word2 {
+    float: left;
+    border-color: #333333;
+    color: #333333;
+    font-family: Hiragino Kaku Gothic Pro;
+    line-height: 32px;
+
+    height: 356px;
+    width: 500px;
+
+}
+
+.intro_botton {
+    background-color: #3d5cdb;
+    border-color: #ffffff;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 30px 165px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.intro_botton2 {
+    background-color: #ffbf00;
+    border-color: #ffffff;
+    border-radius: 12px;
+    color: #ffffff;
+    font-family: Hiragino Kaku Gothic ProN;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 30px 165px;
+    text-align: center;
+    transition: 1.0s;
+}
+
+.introduction2 {
+    text-decoration: none;
+    color:#ffffff;
+}
+.introduction1 {
+    text-decoration: none;
+    color:#ffffff;
+}
+.word {
+    margin: 0% 10%;
+}
+
+.title{
+    border-color:#3d5cdb;
+color:#3d5cdb;
+font-family:Futura;
+font-size:53.3333px;
+font-weight:700;
+padding:40px;
+text-align:center;
+}
