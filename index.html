@@ -6,38 +6,51 @@
 <head>
     <meta charset="utf-8">
     <title>Happy Hack</title>
+
+    <!--js-->
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="style.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+   <script src="js/jquery.particleground.min.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/common.js"></script>
+    <!--js終わり-->
 
 
 </head>
 
+
+
+
 <body>
 
     <div class="trop">
+        <div class="bgimg-slider">
+            <nav>
+                <ul>
+                    <li class="title_botton_"><a href="/Introduction">Introduction</a>
+                    <li class="title_botton_"><a href="/Courses/">Courses</a>
+                    <li class="title_botton_"><a href="/Images/"> Images</a>
+                    <li class="title_botton_"><a href="/Access/">Access</a>
+                </ul>
+            </nav>
 
-        <nav>
-            <h1></h1>
-            <ul>
-                <li class="title_botton_"><a href="/Introduction">Introduction</a>
-                <li class="title_botton_"><a href="/Courses/">Courses</a>
-                <li class="title_botton_"><a href="/Images/"> Images</a>
-                <li class="title_botton_"><a href="/Access/">Access</a>
-            </ul>
-        </nav>
 
+            <div class="introduction_title">
 
-        <div class="introduction_title">
-
-            <img src="logo.png" width="900px" class="logo">
-            <h1 class="title_subtitle">We are Web Designers.</h1>
+                <img src="logo.png" width="900px" class="logo">
+                <h1 class="title_subtitle">We are Web Designers.</h1>
+            </div>
         </div>
     </div>
 
-
     <div id="introduction_top">
- <h2 class="title">introduction1</h2>
+        <h2 class="title">introduction1</h2>
         <div class="introductionbox" id="box1">
-            
+
             <div class="introduction_pic1"><img src="introduction_001.jpg" width="500px"></div>
             <div class="intro_word1">
                 <p class="word">Happy Hackはいまをときめく若者がITを活用したもの<br>づくりに取り組める環境を提供しています。<br>
@@ -50,30 +63,218 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="introductionbox" id="box2">
+        <div class="intro_word2">
+            <p class="word">Happy Hackでは「楽しさ」と「真剣さ」をモットー<br>
+                にプログラミングを学びます。コースは全部で7つ準備<br>をしています。<br>
+                WebデザインからWebサービス、3DゲームやiPhone<br>アプリまで幅広くお楽しみいただけます。<br>
+                自分の想いをカタチにして発信することをぜひこの場で<br>体験してみてください。世界が変わって見えるかもしれ<br>ません。</p>
 
 
-        <div class="introductionbox" id="box2">
-            <div class="intro_word2">
-                <p class="word">Happy Hackでは「楽しさ」と「真剣さ」をモットー<br>
-                   にプログラミングを学びます。コースは全部で7つ準備<br>をしています。<br>
-                    WebデザインからWebサービス、3DゲームやiPhone<br>アプリまで幅広くお楽しみいただけます。<br>
-                    自分の想いをカタチにして発信することをぜひこの場で<br>体験してみてください。世界が変わって見えるかもしれ<br>ません。</p>
-
-
-                <div class="intro_botton_waku">
-                    <div class="intro_botton2"><a href="introduction_top" class="introduction2">会員登録</a></div>
-                </div>
+            <div class="intro_botton_waku">
+                <div class="intro_botton2"><a href="introduction_top" class="introduction2">会員登録</a></div>
             </div>
-            <div class="introduction_pic1"><img src="introduction_002.jpg" width="500px"></div>
+        </div>
+        <div class="introduction_pic1"><img src="introduction_002.jpg" width="500px"></div>
+    </div>
+
+    <div id="courses" >
+
+        <div class="title_box">
+            <h2 class="title">Courses</h2>
         </div>
 
+        <div class="course">
+            <div class="container">
+                <div class="courses_card_html">
+                    <div class="course_img">
+                        <img src="html.png" class="img_courses_card_html" width="100px">
+                    </div>
+                    <h3 class="html_title">HTMLコース</h3>
+                    <div class="courses_botton_html"><a href=#courses class="botton_html">このコースを受ける</a></div>
+
+
+                </div>
+
+                <div class="courses_card_css">
+                    <div class="course_img">
+                        <img src="css.png" class="img_courses_card_css" width="100px">
+                    </div>
+                    <h3 class="css_title">CSSコース</h3>
+                    <div class="courses_botton_css"><a href=#courses class="botton_css">このコースを受ける</a></div>
+
+
+                </div>
+
+
+                <div class="courses_card_unity">
+
+                    <div class="course_img">
+                        <img src="unity.png" class="img_card_unity" width="100px" height="115px">
+                    </div>
+                    <h3 class="unity_title">CSSコース</h3>
+                    <div class="courses_botton_unity"><a href=#courses class="botton_unity">このコースを受ける</a></div>
+
+                </div>
+
+                <div class="courses_card_ruby">
+
+                    <div class="course_img">
+                        <img src="ruby.png" class="img_card_ruby" width="100px" height="100px">
+                    </div>
+                    <h3 class="ruby_title">rubyコース</h3>
+                    <div class="courses_botton_ruby"><a href=#courses class="botton_ruby">このコースを受ける</a></div>
+
+                </div>
+
+                <div class="courses_card_javascript">
+
+                    <div class="course_img">
+                        <img src="js.png" class="img_courses_card_javascript" width="100px">
+                    </div>
+                    <h3 class="javascript_title">Javascriptコース</h3>
+                    <div class="courses_botton_javascript"><a href=#courses class="botton_javascript">このコースを受ける</a></div>
+
+                </div>
+
+                <div class="courses_card_swift">
+
+                    <div class="course_img">
+                        <img src="swift.png" class="img_card_swift" width="100px">
+                    </div>
+                    <h3 class="swift_title">Swiftコース</h3>
+                    <div class="courses_botton_swift"><a href=#courses class="botton_swift">このコースを受ける</a></div>
+
+                </div>
+                <div class="courses_card_go">
+
+                    <div class="course_img">
+                        <img src="go.png" class="img_card_go" width="100px">
+                    </div>
+                    <h3 class="go_title">Goコース</h3>
+                    <div class="courses_botton_go"><a href=#courses class="botton_go">このコースを受ける</a></div>
+
+
+                </div>
+            </div>
+             <div id="particles">
+    </div>
+        </div>
+       
 
 
 
 
 
 
+    <div id="slick">
+
+        <div class="title_box">
+            <h2 class="title">Images</h2>
+        </div>
+        <div class="slick_list">
+            <div class="slick01">
+
+                <div>
+                    <h3><img src="background1.jpg" class="img_images" width="226px"></h3>
+                </div>
+                <div>
+                    <h3> <img src="background2.jpg" class="img_images" width="226px"></h3>
+                </div>
+                <div>
+                    <h3><img src="background3.jpg" class="img_images" width="226px"></h3>
+                </div>
+                <div>
+                    <h3> <img src="background4.jpg" class="img_images" width="226px"></h3>
+                </div>
+                <div>
+                    <h3> <img src="background5.jpg" class="img_images" width="226px"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="access">
+        <div class="title_box">
+            <h2 class="title">Access</h2>
+        </div>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1614100634994!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+    </div>
+
+
+    <footer class="footer">© 2019 Happy Hack Inc.</footer>
 
 
 
+
+
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script>
+        jQuery(function($) {
+            $('.bgimg-slider').bgSwitcher({
+                images: ['hero.jpg', 'background2.jpg', 'background3.jpg'],
+                effect: "drop",
+                easing: "linear"
+            });
+        });
+    </script>
+
+
+
+
+
+  <script type="text/javascript">
+        
+      
+$('#particles').particleground({
+  dotColor: '#ffffff', //ドットの色
+  particleRadius: 5, //ドットの大きさ
+  lineColor: '#eee', //線の色
+  lineWidth: 1, //線の太さ
+  curvedLines: false, //線の種類。trueで曲線
+  proximity: 10, //ドット同士がどれくらい近づいたら線で結ぶか
+  minSpeedX: 0.1, //ドットの横移動の最小スピード
+  maxSpeedX: 1, //ドットの横移動の最大スピード
+  minSpeedY: 0.1, //ドットの縦移動の最小スピード
+  maxSpeedY: 1, //ドットの縦移動の最大スピード
+  directionX: "center", //横にドットが流れていく方向。"center" "left" "right"が指定可能
+  directionY: "center", //縦にドットが流れていく方向。"center" "left" "right"が指定可能
+  density: 10000, //ドットの密度。数値が少ないほど密度が高い
+  parallax: true, //マウスの動きに合わせたパララックス
+  parallaxMultiplier: 5, //パララックスによる動きの大きさ。数値が少ないほど効果が大きい
+  onInit: function() {}, //初期化が終わったタイミングで実行する処理
+  onDestroy: function() {}, //削除された後に実行する処理
+});
+</script>
+
+  
+
+
+    <script type="text/javascript">
+        
+    
+        $('.slick01').slick({
+            infinite: true,
+            dots: true,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                }
+            }, {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            }]
+        });
+    </script>
 </body></html>
