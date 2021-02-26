@@ -6,20 +6,19 @@
 <head>
     <meta charset="utf-8">
     <title>Happy Hack</title>
-
     <!--js-->
     <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="style.css">
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-   <script src="js/jquery.particleground.min.js"></script>
+
+    <script src="js/jquery.particleground.min.js"></script>
     <script type="text/javascript" src="js/slick.min.js"></script>
     <script type="text/javascript" src="js/common.js"></script>
     <!--js終わり-->
 
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
 </head>
 
 
@@ -27,13 +26,13 @@
 
 <body>
 
-    <div class="trop">
+    <div class="trop" class="fuwat">
         <div class="bgimg-slider">
             <nav>
                 <ul>
                     <li class="title_botton_"><a href="/Introduction">Introduction</a>
                     <li class="title_botton_"><a href="/Courses/">Courses</a>
-                    <li class="title_botton_"><a href="/Images/"> Images</a>
+                    <li class="title_botton_"><a href="#Images"> Images</a>
                     <li class="title_botton_"><a href="/Access/">Access</a>
                 </ul>
             </nav>
@@ -48,24 +47,24 @@
     </div>
 
     <div id="introduction_top">
-        <h2 class="title">introduction1</h2>
-        <div class="introductionbox" id="box1">
+        <h2 class="title fuwat">introduction1</h2>
+        <div class="introductionbox fuwat" id="box1">
 
-            <div class="introduction_pic1"><img src="introduction_001.jpg" width="500px"></div>
+            <div class="introduction_pic1"><img src="introduction_001.jpg" width="500px" class="sp_intro_pic"></div>
             <div class="intro_word1">
-                <p class="word">Happy Hackはいまをときめく若者がITを活用したもの<br>づくりに取り組める環境を提供しています。<br>
-                    特に、Webデザイン領域のプログラミングを学習して<br>いる生徒が一番積極的に活動しています。<br>
-                    誰でも最初は初心者。それを一番知っている我々がプロ<br>グラミングへの第一歩を踏み出すお手伝いをさせて<br>いただきます。</p>
+                <p class="word">Happy Hackはいまをときめく若者がITを活用したものづくりに取り組める環境を提供しています。<br>
+                    特に、Webデザイン領域のプログラミングを学習している生徒が一番積極的に活動しています。<br>
+                    誰でも最初は初心者。それを一番知っている我々がプログラミングへの第一歩を踏み出すお手伝いをさせていただきます。</p>
 
 
                 <div class="intro_botton_waku">
-                    <div class="intro_botton"><a href="introduction_top" class="introduction1">会員登録</a></div>
+                    <div class="intro_botton"><a href="#introduction_top" class="introduction1">会員登録</a></div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="introductionbox" id="box2">
+    <div class="introductionbox fuwat" id="box2">
         <div class="intro_word2">
             <p class="word">Happy Hackでは「楽しさ」と「真剣さ」をモットー<br>
                 にプログラミングを学びます。コースは全部で7つ準備<br>をしています。<br>
@@ -74,13 +73,13 @@
 
 
             <div class="intro_botton_waku">
-                <div class="intro_botton2"><a href="introduction_top" class="introduction2">会員登録</a></div>
+                <div class="intro_botton2"><a href="#introduction_top" class="introduction2">会員登録</a></div>
             </div>
         </div>
-        <div class="introduction_pic1"><img src="introduction_002.jpg" width="500px"></div>
+        <div class="introduction_pic1"><img src="introduction_002.jpg" width="500px" class="sp_intro_pic"></div>
     </div>
 
-    <div id="courses" >
+    <div id="courses" class="fuwat">
 
         <div class="title_box">
             <h2 class="title">Courses</h2>
@@ -88,7 +87,7 @@
 
         <div class="course">
             <div class="container">
-                <div class="courses_card_html">
+                <div class="courses_card_html cc">
                     <div class="course_img">
                         <img src="html.png" class="img_courses_card_html" width="100px">
                     </div>
@@ -98,7 +97,7 @@
 
                 </div>
 
-                <div class="courses_card_css">
+                <div class="courses_card_css cc">
                     <div class="course_img">
                         <img src="css.png" class="img_courses_card_css" width="100px">
                     </div>
@@ -109,17 +108,17 @@
                 </div>
 
 
-                <div class="courses_card_unity">
+                <div class="courses_card_unity cc">
 
                     <div class="course_img">
                         <img src="unity.png" class="img_card_unity" width="100px" height="115px">
                     </div>
-                    <h3 class="unity_title">CSSコース</h3>
+                    <h3 class="unity_title">unityコース</h3>
                     <div class="courses_botton_unity"><a href=#courses class="botton_unity">このコースを受ける</a></div>
 
                 </div>
 
-                <div class="courses_card_ruby">
+                <div class="courses_card_ruby cc">
 
                     <div class="course_img">
                         <img src="ruby.png" class="img_card_ruby" width="100px" height="100px">
@@ -129,7 +128,7 @@
 
                 </div>
 
-                <div class="courses_card_javascript">
+                <div class="courses_card_javascript cc">
 
                     <div class="course_img">
                         <img src="js.png" class="img_courses_card_javascript" width="100px">
@@ -139,7 +138,7 @@
 
                 </div>
 
-                <div class="courses_card_swift">
+                <div class="courses_card_swift cc">
 
                     <div class="course_img">
                         <img src="swift.png" class="img_card_swift" width="100px">
@@ -148,7 +147,7 @@
                     <div class="courses_botton_swift"><a href=#courses class="botton_swift">このコースを受ける</a></div>
 
                 </div>
-                <div class="courses_card_go">
+                <div class="courses_card_go cc">
 
                     <div class="course_img">
                         <img src="go.png" class="img_card_go" width="100px">
@@ -159,8 +158,10 @@
 
                 </div>
             </div>
-             <div id="particles">
-    </div>
+
+
+        </div>
+        <div id="particles">
         </div>
     </div>
 
@@ -172,9 +173,9 @@
     <div id="slick">
 
         <div class="title_box">
-            <h2 class="title">Images</h2>
+            <h2 class="title fuwat">Images</h2>
         </div>
-        <div class="slick_list">
+        <div class="slick_list fuwat">
             <div class="slick01">
 
                 <div>
@@ -197,16 +198,16 @@
     </div>
 
 
-    <div id="access">
-        <div class="title_box">
+    <div id="access" 　class="fuwat">
+        <div class="title_box fuwat">
             <h2 class="title">Access</h2>
         </div>
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1614100634994!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe class="map fuwat" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.3131287759825!2d135.49025991523217!3d34.697281280435405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000e6f359905ed7%3A0x9fec1659611f776f!2zTGlmZSBpcyBUZWNoISDlpKfpmKrjgqrjg5XjgqPjgrk!5e0!3m2!1sja!2sjp!4v1614100634994!5m2!1sja!2sjp" width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
     </div>
 
 
-    <footer class="footer">© 2019 Happy Hack Inc.</footer>
+    <footer class="footer fuwat">© 2019 Happy Hack Inc.</footer>
 
 
 
@@ -217,7 +218,7 @@
         jQuery(function($) {
             $('.bgimg-slider').bgSwitcher({
                 images: ['hero.jpg', 'background2.jpg', 'background3.jpg'],
-                effect: "drop",
+                effect: "fade",
                 easing: "linear"
             });
         });
@@ -227,36 +228,32 @@
 
 
 
-  <script type="text/javascript">
-        
-      
-$('#particles').particleground({
-  dotColor: '#ffffff', //ドットの色
-  particleRadius: 5, //ドットの大きさ
-  lineColor: '#eee', //線の色
-  lineWidth: 1, //線の太さ
-  curvedLines: false, //線の種類。trueで曲線
-  proximity: 10, //ドット同士がどれくらい近づいたら線で結ぶか
-  minSpeedX: 0.1, //ドットの横移動の最小スピード
-  maxSpeedX: 1, //ドットの横移動の最大スピード
-  minSpeedY: 0.1, //ドットの縦移動の最小スピード
-  maxSpeedY: 1, //ドットの縦移動の最大スピード
-  directionX: "center", //横にドットが流れていく方向。"center" "left" "right"が指定可能
-  directionY: "center", //縦にドットが流れていく方向。"center" "left" "right"が指定可能
-  density: 10000, //ドットの密度。数値が少ないほど密度が高い
-  parallax: true, //マウスの動きに合わせたパララックス
-  parallaxMultiplier: 5, //パララックスによる動きの大きさ。数値が少ないほど効果が大きい
-  onInit: function() {}, //初期化が終わったタイミングで実行する処理
-  onDestroy: function() {}, //削除された後に実行する処理
-});
-</script>
+    <script type="text/javascript">
+        $('#particles').particleground({
+            dotColor: '#ffffff', //ドットの色
+            particleRadius: 5, //ドットの大きさ
+            lineColor: '#eee', //線の色
+            lineWidth: 1, //線の太さ
+            curvedLines: false, //線の種類。trueで曲線
+            proximity: 10, //ドット同士がどれくらい近づいたら線で結ぶか
+            minSpeedX: 0.1, //ドットの横移動の最小スピード
+            maxSpeedX: 1, //ドットの横移動の最大スピード
+            minSpeedY: 0.1, //ドットの縦移動の最小スピード
+            maxSpeedY: 1, //ドットの縦移動の最大スピード
+            directionX: "center", //横にドットが流れていく方向。"center" "left" "right"が指定可能
+            directionY: "center", //縦にドットが流れていく方向。"center" "left" "right"が指定可能
+            density: 10000, //ドットの密度。数値が少ないほど密度が高い
+            parallax: true, //マウスの動きに合わせたパララックス
+            parallaxMultiplier: 5, //パララックスによる動きの大きさ。数値が少ないほど効果が大きい
+            onInit: function() {}, //初期化が終わったタイミングで実行する処理
+            onDestroy: function() {}, //削除された後に実行する処理
+        });
+    </script>
 
-  
+
 
 
     <script type="text/javascript">
-        
-    
         $('.slick01').slick({
             infinite: true,
             dots: true,
@@ -277,4 +274,49 @@ $('#particles').particleground({
             }]
         });
     </script>
+
+    <script type="text/javascript">
+        $(function() {
+
+            $(window).scroll(function() {
+
+                $('.fade').each(function() {
+
+                    var targetElement = $(this).offset().top;
+
+                    var scroll = $(window).scrollTop();
+
+                    var windowHeight = $(window).height();
+
+                    if (scroll > targetElement - windowHeight + ) {
+
+                        $(this).css('opacity', '1');
+
+                        $(this).css('transform', 'translateY(0)');
+
+                    }
+
+                });
+
+            });
+
+        });
+    </script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.fuwat').css('visibility', 'hidden');
+            $(window).scroll(function() {
+                var windowHeight = $(window).height(),
+                    topWindow = $(window).scrollTop();
+                $('.fuwat').each(function() {
+                    var objectPosition = $(this).offset().top;
+                    if (topWindow > objectPosition - windowHeight + 0) {
+                        $(this).addClass("fuwatAnime");
+                    }
+                });
+            });
+        });
+    </script>
+
 </body></html>

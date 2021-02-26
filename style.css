@@ -30,8 +30,8 @@
     padding: 30px 15px 0px;
     text-align: right;
     transition: color 0.5s;
-  
-  
+
+
 }
 
 .title_botton_ :hover {
@@ -42,7 +42,7 @@
 
 .introduction_title {
     text-align: center;
-float: left;
+    float: left;
     margin-top: 100px;
 
 }
@@ -64,7 +64,7 @@ nav {
     position: absolute;
     top: 0;
     right: 0;
-   
+
 }
 
 nav li {
@@ -86,14 +86,12 @@ nav a {
 
 
 .introductionbox {
-    display: flex;
-    justify-content: center;
     align-items: center;
-    margin-bottom: 40px;
-    margin-left: 10%;
-    margin-right: 10%;
-    height: 326px;
-    ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+    position: relative;
 }
 
 #box1 {
@@ -115,7 +113,7 @@ nav a {
 
 .introduction_pic1 {
     float: left;
-    margin-right: 40px;
+    /*    margin-right: 40px;*/
 
 }
 
@@ -161,6 +159,12 @@ nav a {
     margin: 30px 165px;
     text-align: center;
     transition: 1.0s;
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    font-weight: bold;
 }
 
 .intro_botton2 {
@@ -175,6 +179,13 @@ nav a {
     margin: 30px 165px;
     text-align: center;
     transition: 1.0s;
+    display: block;
+    margin: 30px auto;
+    text-decoration: none;
+    width: 170px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 .introduction2 {
@@ -202,13 +213,13 @@ nav a {
 }
 
 #courses {
-    height: 790px;
-    background-color: #ffffff;
+
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 100px;
+    position: relative;
 }
 
 .course {
@@ -614,7 +625,7 @@ nav a {
 
 #slick {
 
-margin-top: 100px;
+    margin-top: 100px;
     margin-bottom: 50px;
     position: relative;
     height: 450px;
@@ -624,7 +635,7 @@ margin-top: 100px;
     opacity: 1;
 
     position: relative;
-   
+
     box-sizing: border-box;
     width: 80%;
     margin: 0 auto;
@@ -633,30 +644,30 @@ margin-top: 100px;
 .slick_list {
     position: relative;
     overflow: hidden;
-    
-    
+
+
     margin: 0;
     padding: 0;
 
 
 }
 
-.map{
-   display: block;
+.map {
+    display: block;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
-#access{
-    padding:0px 0px 40px;
+#access {
+    padding: 0px 0px 40px;
 }
 
-.footer{
-    border-color:#3d5cdb;
-color:#3d5cdb;
-line-height:60px;
-text-align:center;
-    font-family:Futura;
+.footer {
+    border-color: #3d5cdb;
+    color: #3d5cdb;
+    line-height: 60px;
+    text-align: center;
+    font-family: Futura;
 }
 
 .bgimg-slider {
@@ -669,12 +680,390 @@ text-align:center;
     justify-content: center;
 }
 
-#particles{
-  background-color: #D3E2F6;  
-     height: 790px;
+#particles {
+    background-color: #D3E2F6;
+    position: absolute;
     width: 100%;
-   
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
-  
- 
+.fade {
+
+    opacity: 0;
+
+    transform: translateY(20px);
+
+    transition: all 1s;
+
+}
+
+.fuwatAnime {
+    -webkit-animation-fill-mode: both;
+    -ms-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1.5s;
+    -ms-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-name: fuwatAnime;
+    -ms-animation-name: fuwatAnime;
+    animation-name: fuwatAnime;
+    visibility: visible !important;
+}
+
+@-webkit-keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fuwatAnime {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+/*スマホ用*/
+@media (max-width: 450px) {
+    .logo {
+        width: 70vw;
+        margin: auto;
+    }
+
+    .title_subtitle {
+        font-size: 10%;
+        margin-top: 5%;
+    }
+
+    .title_botton_ {
+        display: none;
+    }
+
+
+    .title {
+        font-size: 150%;
+    }
+
+    .sp_intro_pic {
+        width: 90%;
+        margin-left: 5%
+    }
+
+    .intro_word1 {
+        width: 100%;
+
+
+        line-height: 2;
+
+    }
+
+    .intro_word2 {
+        width: 100%;
+
+
+        line-height: 2;
+
+    }
+
+    .word {
+        font-size: 13px;
+        margin-top: 20px;
+    }
+
+    .introduction1 {
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #3D5CDB;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .introduction2 {
+        display: block;
+        margin: 30px auto;
+        text-decoration: none;
+        width: 170px;
+        height: 40px;
+        background-color: #ffbf00;
+        color: #ffffff;
+        border-radius: 12px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+
+    .cc {
+        width: 100px;
+        height: 180px;
+        background-color: #ffffff;
+        margin-top: 20px;
+        border-radius: 8px;
+        display: flex;
+    }
+
+    .course_img {
+        width: 90px;
+        height: 90px;
+        margin: 0 auto;
+        position: relative;
+    }
+
+    .img_courses_card_html {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+    .botton_html {}
+
+    .courses_botton_html {
+        background-color: #f16529;
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .html_title {
+        font-size: 80%;
+    }
+
+    .img_courses_card_css {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    .courses_botton_css {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .css_title {
+        font-size: 80%;
+    }
+
+    .img_courses_card_unity {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+.img_card_unity {
+
+    margin: 10px 8px;
+    width: 80%;
+    height: 80%;
+
+}
+    .courses_botton_unity {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .ruby_title {
+        font-size: 80%;
+    }
+
+    .img_courses_card_ruby {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    .courses_botton_ruby {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .ruby_title {
+        font-size: 80%;
+    }
+    .img_card_ruby {
+
+    margin: 10px 8px;
+    width: 80%;
+    height: 80%;
+
+}
+
+    .img_courses_card_javascript {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    .courses_botton_javascript {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .swift_title {
+        font-size: 80%;
+    }
+    .img_courses_card_swift {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    .courses_botton_swift {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .img_card_swift {
+
+    margin: 10px 8px;
+    width: 80%;
+    height: 80%;
+
+}
+    .go_title {
+        font-size: 80%;
+    }
+    .img_courses_card_go {
+        width: 50px;
+        object-fit: contain;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: 0 auto;
+        margin-top: 5px;
+    }
+
+
+    .courses_botton_go {
+        border-radius: 20px;
+        font-size: 1px;
+        font-weight: 700;
+        line-height: 37px;
+        width: 110px;
+        margin: 15px -5px 5px;
+        text-align: center;
+
+
+    }
+
+    .go_title {
+        font-size: 80%;
+    }
+    .img_card_go {
+
+    margin: 10px 8px;
+    width: 80%;
+    height: 80%;
+
+}
+}
+
+}
