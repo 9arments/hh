@@ -6,6 +6,11 @@
 }
 
 
+.sp_1{
+        display: none;
+    }
+
+
 .title_box {
     width: 100%;
 }
@@ -914,17 +919,23 @@ nav a {
     height: 80%;
 
 }
+     .unity_title {
+        font-size: 80%;
+         margin: -10px 10px 30px;
+    }
+    
     .courses_botton_unity {
         border-radius: 20px;
         font-size: 1px;
         font-weight: 700;
         line-height: 37px;
         width: 110px;
-        margin: 15px -5px 5px;
+        margin: -10px -5px 5px -6px;
         text-align: center;
 
 
     }
+    
 
     .ruby_title {
         font-size: 80%;
@@ -949,7 +960,7 @@ nav a {
         font-weight: 700;
         line-height: 37px;
         width: 110px;
-        margin: 15px -5px 5px;
+     margin: -10px -5px 5px -6px;
         text-align: center;
 
 
@@ -957,6 +968,7 @@ nav a {
 
     .ruby_title {
         font-size: 80%;
+         margin: -10px 10px 30px;
     }
     .img_card_ruby {
 
@@ -975,10 +987,15 @@ nav a {
         bottom: 0;
         left: 0;
         margin: 0 auto;
-        margin-top: 5px;
+       
     }
 
-
+.javascript_title {
+        font-size: 80%;
+ 
+    
+    }
+    
     .courses_botton_javascript {
         border-radius: 20px;
         font-size: 1px;
@@ -991,8 +1008,10 @@ nav a {
 
     }
 
+    
     .swift_title {
         font-size: 80%;
+         margin: -10px 10px 30px;
     }
     .img_courses_card_swift {
         width: 50px;
@@ -1013,7 +1032,7 @@ nav a {
         font-weight: 700;
         line-height: 37px;
         width: 110px;
-        margin: 15px -5px 5px;
+    margin: -10px -5px 5px -6px;
         text-align: center;
 
 
@@ -1028,6 +1047,7 @@ nav a {
 }
     .go_title {
         font-size: 80%;
+            margin: -10px 10px 30px;
     }
     .img_courses_card_go {
         width: 50px;
@@ -1048,7 +1068,7 @@ nav a {
         font-weight: 700;
         line-height: 37px;
         width: 110px;
-        margin: 15px -5px 5px;
+      margin: -10px -5px 5px -6px;
         text-align: center;
 
 
@@ -1064,6 +1084,18 @@ nav a {
     height: 80%;
 
 }
+    
+    .sp_2{
+        display: none;
+    }
+    
+    .sp_1{
+        display: block;
+    }
+    .map{
+        width: 80%;
+        height: 180%;
+    }
 }
 
 }
